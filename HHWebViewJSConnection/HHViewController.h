@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HHViewController : UIViewController
+@interface HHViewController : UIViewController<UIWebViewDelegate>
+{
+    UIWebView *_webView;
+}
 
 @end
